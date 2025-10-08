@@ -1,0 +1,45 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+*.pyc
+__pycache__/
+
+# Archivos de configuración y entorno
+*.env
+.env.*
+*.log
+
+# Archivos de migración
+**/migrations/
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Archivos de base de datos (MySQL no genera archivos locales como SQLite, pero por si acaso)
+*.sqlite3
+*.db
+
+# Archivos de compilación y distribución
+*.egg-info/
+dist/
+build/
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Archivos estáticos generados
+staticfiles/
+media/
+
+# Archivos de cobertura de pruebas
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Archivos de Docker y otros temporales
+*.pid
+*.bak
+*.tmp
