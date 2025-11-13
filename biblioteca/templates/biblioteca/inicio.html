@@ -1,18 +1,46 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    
-</head>
-<body>
-    <h1>Bienvenido a la aplicacion</h1>
+{% extends "plantilla_base.html" %}
 
+{% block cabecera %}
+</br>
+<div class="row">
+  <div class="col-12 text-center">
+    <h1>Sistema de Gestión de Biblioteca</h1>
+  </div>
+</div>
+{% endblock %}
 
-    <footer>
-    </footer>
-</body>
-</html>
+{% block contenido %}
+<div class="container">
+ 
+</div>
 
+<div class="row">
+    <div class="col-4 d-flex justify-content-center">
+      <a class="text-decoration-none" href="biblioteca/autores/">
+        <div class="card border-secondary mb-3 text-center" style="max-width: 20rem">
+          <div class="card-body">
+            <h4 class="card-title">Gestión de Autores</h4>
+          </div>
+          <div class="card-footer text-muted"></div>
+        </div>
+      </a>
+    </div>
 
-<!--<link rel="stylesheet" href="(% static 'bootstrap.css')"/>
+    <div class="col-4 d-flex justify-content-center">
+      <a class="text-decoration-none" href="biblioteca/libros/">
+        <div class="card border-secondary mb-3 text-center" style="max-width: 20rem">
+          <div class="card-body">
+            <h4 class="card-title">Gestión de Libros</h4>
+          </div>
+          <div class="card-footer text-muted"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</br>
+  </div>
+</div>
+
+<script src="" async defer></script>
+{% endblock %}

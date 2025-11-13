@@ -1,0 +1,134 @@
+/* ======= Tipografía y base ======= */
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: #eef2f7;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======= Encabezado y navbar ======= */
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #dcdde1;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  background-color: #ffffff !important;
+}
+
+.nav-link {
+  color: #3498db !important;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #1abc9c !important;
+}
+
+/* ======= Título principal ======= */
+h1 {
+  font-size: 2.2rem;
+  margin: 1rem 0;
+  color: #34495e;
+  font-weight: 600;
+}
+
+/* ======= Cards ======= */
+.card {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  background-color: #dff9fb;
+  color: #0984e3;
+  font-weight: bold;
+  padding: 0.75rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.1rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2d3436;
+}
+
+.card-footer {
+  background-color: #f1f2f6;
+  border-top: 1px solid #ccc;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  color: #636e72;
+}
+
+/* ======= Login Form ======= */
+form {
+  margin: 2rem auto;
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #b2bec3;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #00cec9;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0984e3;
+}
+
+/* ======= Enlaces ======= */
+a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ======= Errores ======= */
+.error {
+  color: #d63031;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
